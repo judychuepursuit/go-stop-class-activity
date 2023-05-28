@@ -1,0 +1,42 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+div {
+    align-items: center;
+    display: flex;
+    background-color: rgb(42, 235, 12);
+    border-radius: 150px;
+    flex-direction: row;
+    height: 150px;
+    justify-content: center;
+    margin: 10px;
+    width: 150px
+} 
+
+.red-circle {
+    background-color: rgb(242, 61, 11);
+    color: white;
+    flex-direction: row;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* width: 120px;
+    height: 120px; */
+    /* margin:-60px 0 0 -60px; */
+    -webkit-animation:spin 4s;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 7s;
+}
+    /* @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } } */
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    /* @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } } */
+
+    /* animation: red-circle infinite 20s linear; */
+
